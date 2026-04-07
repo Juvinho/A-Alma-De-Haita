@@ -1,0 +1,200 @@
+@keyframes glitch-text {
+  0%, 100% {
+    transform: translateX(0);
+    color: inherit;
+  }
+  20% {
+    transform: translateX(-2px);
+    color: #8b0000;
+  }
+  40% {
+    transform: translateX(2px);
+    color: inherit;
+  }
+  60% {
+    transform: translateX(-1px);
+    color: #a02020;
+  }
+  80% {
+    transform: translateX(1px);
+    color: inherit;
+  }
+}
+
+@keyframes whisper-in {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes veil-tear {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(50% 10%, 50% 10%, 50% 90%, 50% 90%);
+  }
+}
+
+@keyframes pulse-crimson {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(139, 0, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(139, 0, 0, 0);
+  }
+}
+
+@keyframes ember-float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-50vh) translateX(15px);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes shake-wrath {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-5px, -5px);
+  }
+  20% {
+    transform: translate(5px, 5px);
+  }
+  30% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(5px, -5px);
+  }
+  50% {
+    transform: translate(-3px, -3px);
+  }
+  60% {
+    transform: translate(3px, 3px);
+  }
+  70% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+}
+
+@keyframes seal-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 0 transparent);
+    color: #ffd700;
+  }
+  50% {
+    filter: drop-shadow(0 0 15px #ffd700);
+    color: #ffed4e;
+  }
+}
+
+@keyframes blood-drip {
+  0% {
+    background: linear-gradient(180deg, #5a0000 0%, transparent 50%);
+  }
+  50% {
+    background: linear-gradient(180deg, transparent 0%, #2a0000 50%, transparent 100%);
+  }
+  100% {
+    background: linear-gradient(180deg, transparent 0%, #000000 100%);
+  }
+}
+
+@keyframes void-breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes reveal-from-dark {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: brightness(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: brightness(1);
+  }
+}
+
+@keyframes cursor-hunt {
+  0%, 100% {
+    opacity: 0.8;
+    r: 2px;
+  }
+  50% {
+    opacity: 1;
+    r: 3px;
+  }
+}
+
+@keyframes rune-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Utility Classes */
+
+.animate-glitch {
+  animation: glitch-text 3s infinite;
+}
+
+.animate-whisper {
+  animation: whisper-in var(--whisper-duration, 2s) ease-out forwards;
+}
+
+.animate-shake {
+  animation: shake-wrath 0.4s ease-in-out;
+}
+
+.animate-pulse-crimson {
+  animation: pulse-crimson 2s infinite;
+}
+
+.animate-seal {
+  animation: seal-glow 2s ease-in-out infinite;
+}
+
+.animate-reveal {
+  animation: reveal-from-dark 1.2s ease-out forwards;
+}
+
+.animate-breathe {
+  animation: void-breathe 8s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: ember-float 10s linear infinite;
+}
+
+.animate-spin-rune {
+  animation: rune-spin 20s linear infinite;
+}

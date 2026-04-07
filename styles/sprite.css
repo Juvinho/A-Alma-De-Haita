@@ -1,0 +1,106 @@
+/* ============================================================================
+   SPRITE COMPONENT STYLES
+   ============================================================================ */
+
+/* Base */
+.sprite-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sprite-image {
+  max-height: 80vh;
+  width: auto;
+  object-fit: contain;
+  object-position: bottom center;
+
+  /* Pixel art rendering - nítido */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Fallback para browsers que não suportam pixelated */
+  @supports not (image-rendering: pixelated) {
+    image-rendering: auto;
+  }
+}
+
+/* Loading state */
+.sprite-image.sprite-loading {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}
+
+.sprite-image:not(.sprite-loading) {
+  opacity: 1;
+  transition: opacity 200ms ease-out;
+}
+
+/* Animação de transição entre expressões */
+.sprite-animated {
+  --animation-duration: 300ms;
+}
+
+.sprite-animated .sprite-image {
+  animation: spriteTransition var(--animation-duration) ease-in-out;
+}
+
+@keyframes spriteTransition {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Erro */
+.sprite-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  background: rgba(255, 0, 0, 0.1);
+  border: 2px dashed #ff4444;
+  border-radius: 8px;
+  color: #ff4444;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+  .sprite-container {
+    height: 60vh;
+  }
+
+  .sprite-image {
+    max-height: 60vh;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+  .sprite-container {
+    height: 50vh;
+  }
+
+  .sprite-image {
+    max-height: 50vh;
+  }
+}

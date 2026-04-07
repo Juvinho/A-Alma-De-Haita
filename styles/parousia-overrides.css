@@ -1,0 +1,205 @@
+/* Parousia Overrides — Alterações visuais após completar todos os enigmas */
+
+html[data-parousia='true'] {
+  --bg-primary: #0c0a08;
+  --text-primary: #d4c4a0;
+  --accent-crimson: #6b1010;
+  --glow-haita: #d4a01733;
+  --border-accent: #d4a017;
+}
+
+/* Background mais quente */
+html[data-parousia='true'] body {
+  background-color: #0c0a08;
+  color: #d4c4a0;
+}
+
+/* Texto primário em dourado pálido */
+html[data-parousia='true'] h1,
+html[data-parousia='true'] h2,
+html[data-parousia='true'] h3,
+html[data-parousia='true'] h4,
+html[data-parousia='true'] h5,
+html[data-parousia='true'] h6 {
+  color: #d4a017;
+}
+
+/* Links em dourado */
+html[data-parousia='true'] a {
+  color: #d4a017;
+  text-decoration: underline;
+}
+
+html[data-parousia='true'] a:hover {
+  color: #e8b834;
+  text-shadow: 0 0 10px rgba(212, 160, 23, 0.5);
+}
+
+/* Bordes e separadores em dourado */
+html[data-parousia='true'] hr {
+  border-color: #d4a0173a;
+}
+
+html[data-parousia='true'] .divider-accent,
+html[data-parousia='true'] [class*='separator'] {
+  border-color: #d4a0173a;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d4a01733,
+    transparent
+  );
+}
+
+/* Botões com esquema dourado */
+html[data-parousia='true'] button[class*='primary'],
+html[data-parousia='true'] button[class*='accent'] {
+  background-color: #8b6914;
+  color: #d4c4a0;
+  border: 1px solid #d4a01733;
+}
+
+html[data-parousia='true'] button[class*='primary']:hover,
+html[data-parousia='true'] button[class*='accent']:hover {
+  background-color: #a67c1a;
+  box-shadow: 0 0 15px rgba(212, 160, 23, 0.3);
+}
+
+/* Glitches mais raros (aumentar intervalo) */
+html[data-parousia='true'] .animate-glitch {
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+
+/* Grain quase inexistente */
+html[data-parousia='true'] .corruption-overlay-grain {
+  opacity: 0.02 !important;
+}
+
+/* Partículas mais douradas */
+html[data-parousia='true'] .particle {
+  --particle-color: rgba(212, 160, 23, 0.6);
+  background: var(--particle-color);
+  box-shadow: 0 0 8px var(--particle-color);
+}
+
+/* Containers/cards com borda dourada sutil */
+html[data-parousia='true'] [class*='card'],
+html[data-parousia='true'] [class*='container'],
+html[data-parousia='true'] [class*='panel'] {
+  border-color: #d4a0171a;
+}
+
+/* Tooltips e popovers em dourado */
+html[data-parousia='true'] .tooltip,
+html[data-parousia='true'] [role='tooltip'] {
+  background-color: #1a1612;
+  color: #d4c4a0;
+  border: 1px solid #d4a0171a;
+}
+
+html[data-parousia='true'] .tooltip::before,
+html[data-parousia='true'] [role='tooltip']::before {
+  border-top-color: #1a1612;
+}
+
+/* Inputs com border dourada */
+html[data-parousia='true'] input,
+html[data-parousia='true'] textarea,
+html[data-parousia='true'] select {
+  border-color: #d4a0171a;
+  background-color: #0c0a08;
+  color: #d4c4a0;
+}
+
+html[data-parousia='true'] input:focus,
+html[data-parousia='true'] textarea:focus,
+html[data-parousia='true'] select:focus {
+  border-color: #d4a017;
+  box-shadow: 0 0 10px rgba(212, 160, 23, 0.2);
+}
+
+/* Animações mais suaves (menos shake) */
+html[data-parousia='true'] .animate-shake {
+  animation: minimal-shake 0.3s ease-in-out;
+}
+
+@keyframes minimal-shake {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-1px, -1px);
+  }
+  50% {
+    transform: translate(1px, 1px);
+  }
+  75% {
+    transform: translate(-1px, 1px);
+  }
+}
+
+/* Seal/selo com brilho dourado */
+html[data-parousia='true'] [class*='seal'],
+html[data-parousia='true'] [class*='emblem'] {
+  filter: drop-shadow(0 0 10px rgba(212, 160, 23, 0.3));
+}
+
+/* Transições mais lentas e fluidas */
+html[data-parousia='true'] * {
+  --transition-duration: 0.4s;
+}
+
+html[data-parousia='true'] [class*='transition'],
+html[data-parousia='true'] button,
+html[data-parousia='true'] a {
+  transition: all var(--transition-duration) ease-out;
+}
+
+/* Header/navbar com tint dourado sutil */
+html[data-parousia='true'] header,
+html[data-parousia='true'] nav,
+html[data-parousia='true'] [role='navigation'] {
+  border-bottom: 1px solid #d4a0171a;
+}
+
+/* Footer com decoração dourada */
+html[data-parousia='true'] footer {
+  border-top: 1px solid #d4a0171a;
+  color: #c9b99a;
+}
+
+/* Ênfase em elementos importantes */
+html[data-parousia='true'] .important,
+html[data-parousia='true'] [aria-important='true'] {
+  color: #e8b834;
+  font-weight: 600;
+  text-shadow: 0 0 5px rgba(212, 160, 23, 0.25);
+}
+
+/* Modal/popup com tema dourado */
+html[data-parousia='true'] .modal,
+html[data-parousia='true'] [role='dialog'] {
+  background-color: #0c0a08;
+  border: 2px solid #d4a0171a;
+  box-shadow: 0 10px 40px rgba(212, 160, 23, 0.1);
+}
+
+/* Scrollbar customizado (se suportado) */
+html[data-parousia='true'] ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+html[data-parousia='true'] ::-webkit-scrollbar-track {
+  background: #0c0a08;
+}
+
+html[data-parousia='true'] ::-webkit-scrollbar-thumb {
+  background: #8b6914;
+  border-radius: 5px;
+}
+
+html[data-parousia='true'] ::-webkit-scrollbar-thumb:hover {
+  background: #a67c1a;
+}
