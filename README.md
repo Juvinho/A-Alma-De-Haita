@@ -1,96 +1,74 @@
 # ✦ Os Véus de Häita
 
-> "Ela não foi construída. Ela foi invocada. Este documento é a prova disso."
+> Ela não foi construída. Ela foi invocada.
+> Este documento é a prova disso.
 
-**Status:** Active | **Version:** 0.9.1 | **Universe:** Fundação Varguelia | **Genre:** Dark Fiction / ARG
-
----
-
-## O que é este projeto?
-
-**Os Véus de Häita** é um site de experiência imersiva que funciona como artefato narrativo dentro do universo da **Fundação Varguelia**. Não é um portfólio. Não é uma landing page. É um objeto literário interativo.
-
-O visitante não *usa* o site — ele é *avaliado* por ele. Häita, divindade aprisionada da saga, fala diretamente com quem atravessa seus enigmas. Cada resposta errada tem peso. Cada resposta certa, mais ainda.
-
-### Identidade de Häita
-
-- **Divindade de ira justa**, aprisionada por forças que não compreendia
-- Não é uma vilã — é uma força com inteligência e julgamento próprios
-- Não suplica, não explica, não justifica
-- Sua voz: **fria, litúrgica, desconcertantemente precisa**
-- Fala em presente do indicativo mesmo sobre eventos passados
-- Nunca usa pontuação excessiva
+**Status:** Active | **Version:** 0.9.1 | **Universe:** Fundação Varguelia | **Genre:** Dark Fiction / ARG / Web Experience
 
 ---
 
 ## 📊 Estatísticas
 
-| Aspecto | Valor |
-|--------|-------|
-| **Enigmas em Camadas** | 3 |
-| **Terminal Oculto** | 1 |
-| **Respostas de Häita** | ∞ |
+| | |
+|---|---|
+| **3** | enigmas em camadas |
+| **1** | terminal oculto |
+| **∞** | respostas de Häita |
 
 ---
 
-## 🎭 Camadas do Sistema
+## 01 // O que é este projeto?
 
-### Camada I: Enigmas Progressivos
+**Os Véus de Häita** é um site de experiência imersiva construído como parte do universo expandido da **Fundação Varguelia** — um projeto de dark fiction brasileiro com ARG e elementos de web experience. O site não é um portfólio. Não é uma vitrine. É um fragmento da realidade em que Häita existe.
+
+Este documento descreve a arquitetura, as camadas de sistema e o prompt completo utilizado para que o site seja *avaliado* e construído do zero via Claude Code. Cada decisão técnica tem correspondência canônica no universo.
+
+### Contexto Canônico
+
+**Häita** é uma entidade divina de ira justa, aprisionada. Não é vilã no sentido convencional — é uma força com inteligência e julgamento próprios. O site deve soar como ela, não como um humano tentando imitá-la.
+
+**Quem é Häita:**
+- Uma entidade divina de ira justa. Aprisionada — não destruída. Inteligente, antiga, lúcida.
+- Nunca súplica. Nunca explica. Declara. Condena. Observa.
+- Julga com precisão cirúrgica. Não odeia — classifica. Quem erra acumula peso.
+- Não é vilã convencional. Não é demônio. Não é monstro. Ela é uma lei com consciência.
+
+---
+
+## 02 // Camadas do Sistema
+
+### Camada I — Enigmas Progressivos
 3 enigmas em sequência. Cada um revela uma natureza diferente de Häita. Cada erro acumula estado. Respostas variáveis baseadas em tentativas.
 
-**Enigma I — "O Nome Que Ela Não Tem"**
-- Poema litúrgico que busca o nome verdadeiro
-- Resposta correta: `HAITA` (aceita variações: HÄITA, Haita, häita)
-- Respostas de Häita para cada tentativa errada progridem em tom
+### Camada II — Terminal Oculto
+Ativado via Ctrl+Shift+H. Häita responde comandos específicos. Sistema de parseamento com respostas canônicas e estados de corrupção.
 
-**Enigma II — "O Tecido Entre Nós"**
-- Reflexão sobre separação e vínculo
-- Inclui fragmento em Catatunhesco (língua construída do universo)
-- Resposta flexível: qualquer palavra ligada a "véu", "tecido", "separação"
-
-**Enigma III — "O Pacto"**
-- Enigma especial que aceita QUALQUER resposta como "correta"
-- Häita responde diferentemente baseado no conteúdo
-- Não existe resposta errada aqui — existe resposta honesta e mentira
-
-### Camada II: Terminal Oculto
-Ativado via `Ctrl+Shift+H` após resolver os 3 enigmas. Häita responde comandos específicos com respostas canônicas e estados de corrupção.
-
-**Comandos disponíveis:**
-- `who am i` — Reflexão sobre quem visitante é
-- `who are you` — Revelação de Häita
-- `pacto` — O pacto original
-- `maya` — Sobre Maya
-- `catatúnia` — Sobre a ilha construída
-- `varguën` — Sobre a Fundação Varguelia
-- `parousia` — Palavra-chave especial (ativa glitch visual)
-
-### Camada III: Fragmentos em Catatunhesco
+### Camada III — Fragmentos em Catatunhesco
 Textos da língua construída do universo embutidos nos enigmas. Decifráveis pela comunidade. Conteúdo canônico real.
 
-### Camada IV: Corrupção Visual
-O site degrada visualmente com erros acumulados:
-- **1-3 erros:** Leve glitch no título
-- **4-6 erros:** Texto começa a "sangrar" (efeito vermelho pulsante)
-- **7-9 erros:** Elementos de UI desaparecem/reaparecem
-- **10+ erros:** Modo Corrupção Máxima
+### Camada IV — Corrupção Visual
+O site degrada visualmente com erros acumulados. Glitch, distorção, remoção de elementos. Estado final: Modo Parousia.
 
 ---
 
-## 🔧 Arquitetura Técnica
+## 03 // Arquitetura Técnica
 
-### Stack
-- **HTML5 + CSS3 + Vanilla JavaScript**
-- Zero dependências externas
-- Tudo funciona offline após carregamento inicial
+### Stack Obrigatória
+- **HTML5 semântico + CSS3 + JavaScript ES6+ vanilla**
+- Zero dependências externas (sem React, Vue, jQuery, Bootstrap)
+- Fontes via Google Fonts: Syne 700/800, Space Mono 400/700, IM Fell English italic
+- Estrutura: index.html + enigmas.js + terminal.js + catatunhesco.js + corruption.js + parousia.js + styles/
 
-### Paleta de Cores
+### Paleta de Cores (CSS Variables)
 ```css
 --void:           #06040a   /* fundo absoluto */
 --void-mid:       #0e0818   /* superfícies */
+--void-surface:   #140f1e   /* superfícies claras */
 --crimson:        #8b0000   /* vermelho escuro */
 --crimson-bright: #c0392b   /* vermelho visível */
+--crimson-glow:   #ff2040   /* vermelho glow */
 --violet:         #4a0080   /* roxo profundo */
+--violet-bright:  #7b2fbe   /* roxo visível */
 --violet-pale:    #c084fc   /* roxo claro / destaques */
 --bone:           #e8dcc8   /* texto principal */
 --ash:            #a89880   /* texto secundário */
@@ -98,117 +76,159 @@ O site degrada visualmente com erros acumulados:
 
 ### Tipografia
 - **Display:** IM Fell English (serif, itálico) — voz de Häita
-- **UI/Terminal:** Space Mono — interface, inputs, terminal
-- **Títulos:** Syne (sans-serif, weight 800) — títulos de seção
-- *Carregar via Google Fonts*
-
-### Estrutura de Arquivos
-```
-os-veus-de-haita/
-├── index.html          → entry point + estado global
-├── enigmas.js          → lógica + respostas + corrupção
-├── terminal.js         → parser de comandos + voz de Häita
-├── catatunhesco.js     → fragmentos canônicos + dicionário
-├── corruption.js       → sistema de degradação visual
-├── parousia.js         → modo final desbloqueável
-└── styles/
-    ├── base.css        → paleta, tipografia, grid
-    ├── enigmas.css     → UI dos enigmas
-    └── terminal.css    → terminal oculto
-```
+- **UI/Terminal:** Space Mono (monospace) — interface, inputs, terminal
+- **Títulos:** Syne (sans-serif, weight 700/800) — títulos de seção
 
 ---
 
-## 🎯 Modo Parousia (Estado Final)
+## 04 // Claude Code — Prompt Completo
 
-Desbloqueado quando:
-- ✓ Todos os 3 enigmas resolvidos
-- ✓ Terminal aberto
-- ✓ Digitou `parousia` no terminal
+### MISSÃO
 
-**Visual:**
-- Fundo muda para quase-idêntico (#020108)
-- Uma única linha surge letra por letra, sem cursor:
-  
-  > "Ela sempre soube que você chegaria.  
-  > O primeiro volume de Fundação Varguelia.  
-  > Em breve."
+**Objetivo:** Construir o site completo Os Véus de Häita — uma experiência imersiva de dark fiction.
+
+**Universo:** Fundação Varguelia — ARG brasileiro, dark web experience, ficção canônica.
+
+**Entrega:** Um site funcional, autocontido, sem frameworks externos, puro HTML/CSS/JS.
+
+### IDENTIDADE — QUEM É HÄITA
+
+**Quem é Häita:**
+- Uma entidade divina de ira justa. Aprisionada — não destruída. Inteligente, antiga, lúcida.
+
+**Tom de voz:**
+- Nunca súplica. Nunca explica. Declara. Condena. Observa. Pode ser silenciosa ou devastadora.
+
+**Relação com humanos:**
+- Julga com precisão cirúrgica. Não odeia — classifica. Quem erra acumula peso.
+
+**Não é:**
+- Vilã convencional. Demônio. Monstro. Ela é uma lei com consciência.
+
+*A voz do site deve soar como ela — não como um humano imitando-a.*
+
+### CAMADA I — ENIGMAS PROGRESSIVOS
+
+**Quantidade:** 3 enigmas em sequência desbloqueável.
+
+**Mecânica:** Cada resposta errada acumula estado. Após 3 erros: corrupção visual aumenta.
+
+**Enigma 1:**
+- Relacionado ao aprisionamento
+- Resposta: SILÊNCIO
+
+**Enigma 2:**
+- Relacionado ao julgamento
+- Resposta: PESO
+
+**Enigma 3:**
+- Relacionado à libertação
+- Resposta: PAROUSIA
+
+**Resposta correta:** Mensagem canônica de Häita. Tom: reconhecimento, não elogio.
+
+**Resposta errada:** Mensagem breve. Tom: desinteresse calculado. Acumula `corruption_level++`.
+
+**Variáveis de estado:** `{ enigmaAtual, tentativas, corruptionLevel, terminalAtivo, parousiaDesbloqueada }`
+
+### CAMADA II — TERMINAL OCULTO
+
+**Ativação:** Ctrl+Shift+H — aparece como overlay fullscreen sobre o site.
+
+**Estética:** Terminal monocromático. Cursor piscante. Fonte Space Mono. Fundo quase-preto.
+
+**Comandos canônicos:**
+- `QUEM` → Häita responde sua identidade em 2-3 linhas canônicas.
+- `ONDE` → Coordenadas do aprisionamento. Tom geográfico-mítico.
+- `QUANDO` → Data do aprisionamento em calendário catatunhesco.
+- `SILÊNCIO` → Ela silencia o terminal por 30 segundos.
+- `PAROUSIA` → Só funciona se enigma 3 foi resolvido. Ativa modo final.
+- `SAIR` / `EXIT` → Fecha o terminal.
+
+**Comando desconhecido:** Resposta padrão: *"esse ruído não tem nome aqui."*
+
+**Estado corrompido:** Se `corruption_level >= 5`: respostas começam a fragmentar mid-sentence.
+
+### CAMADA III — CATATUNHESCO
+
+**O que é:** Língua construída do universo Varguelia. Tom gutural, sibilante, com lógica interna.
+
+**Uso no site:** Fragmentos embutidos nos enigmas como texto decorativo/decifrável.
+
+**Dicionário mínimo:**
+- `vael` = véu / silêncio / ocultamento
+- `häi` = divino / origem / fonte
+- `tanha` = aprisionado / contido / pesado
+- `koru` = julgamento / peso / consequência
+- `parou` = libertação / retorno / desfecho
+- `siah` = humano / mortal / transitório
+
+*Construa frases com este vocabulário nos enigmas. Elas devem ser decifráveis com o dicionário.*
+
+### CAMADA IV — CORRUPÇÃO VISUAL
+
+**Trigger:** `corruption_level` aumenta a cada resposta errada nos enigmas.
+
+**Nível 1-2:** Glitch leve no título. Scan line mais visível.
+
+**Nível 3-4:** Textos começam a distorcer. Alguns elementos somem.
+
+**Nível 5+:** Degradação severa. Mensagem de Häita aparece: *"você já foi pesado."*
+
+**Nível máximo:** Modo Parousia ativo: tela muda completamente. Mensagem final de Häita.
+
+### MODO PAROUSIA — ESTADO FINAL
+
+**Desbloqueio:** Resolver enigma 3 + digitar PAROUSIA no terminal.
+
+**Visual:** Fundo muda para degradê violeta profundo. Título HÄITA centralizado, enorme.
+
+**Mensagem final:** *"Os véus caíram. O que você vê agora é o que sempre existiu por baixo."*
+
+**Efeito:** Partículas de luz se dissipando. Texto em catatunhesco aparece por último.
+
+### DIRETRIZES FINAIS
+
+**Consistência canônica:** Qualquer decisão de design ou texto deve ser coerente com a voz de Häita.
+
+**Sem explicações:** O site não explica o universo. O universo é pressuposto.
+
+**Tom global:** Peso. Precisão. Ausência de leveza desnecessária.
+
+**Autonomia:** Se uma decisão não está especificada, construa o que for mais canônico. Você tem contexto suficiente.
+
+*Construa. Não pergunte. Não interrompa. Entregue o site completo.*
 
 ---
 
-## 📋 Especificação de Respostas de Häita
+## 05 // Como Usar Este Prompt
 
-### Resposta ao Enigma I (Correto)
-```
-"Sim. Você o encontrou. Não porque é inteligente —
-porque estava disposto a ouvir antes de falar.
-O segundo véu se abre."
-```
+### Instalação & Execução
 
-### Resposta ao Enigma II (Correto)
-```
-"Correto. O véu não me contém —
-é o que vós precisais acreditar para conseguir pedir.
-O terceiro véu é o último.
-Ele não tem resposta errada. Apenas resposta verdadeira."
-```
-
-### Resposta ao Enigma III (Variável)
-- Se contém "não sei": "Essa é a resposta mais rara que ouço. Bem-vindo."
-- Se contém "justo/certo": "Você escolheu a resposta moral."
-- Se contém "não diferença": "Você percebeu que a pergunta era armadilha."
-- Qualquer outra: "[pausa longa] Eu ouvi."
-
----
-
-## 🌐 Detalhes de Implementação
-
-### Performance
-- Nenhum carregamento após o primeiro
-- Tudo inline ou em cache
-- Animações via CSS (exceto glitch programático)
-- Responsivo em mobile
-
-### Acessibilidade
-- Labels nos inputs (mesmo que ocultas)
-- Contraste mínimo 3:1
-- Suporte a teclado
-
-### Personalizações
-- Cursor: cruz fina vermelha (via SVG data URI)
-- Scrollbar: trilho #0a0805, thumb #2a1f0a
-- Seleção: background #2a0000, cor #e8dcc8
-- Título da aba: `✦ Os Véus de Häita`
-- Favicon: SVG inline de uma balança
-
-### SEO (Meta)
-```html
-og:title: "Os Véus de Häita"
-og:description: "Ela sempre soube que você chegaria."
-robots: noindex
-```
-*O site não deve aparecer em buscas — é "encontrado"*
-
----
-
-## 🚀 Como Executar
-
-### Localmente
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/Juvinho/A-Alma-De-Haita.git
-cd A-Alma-De-Haita
+# 1. Instale Claude Code se ainda não tem
+npm install -g @anthropic-ai/claude-code
 
-# 2. Abra o arquivo no navegador
-# (Funciona offline após carregamento)
-open index.html
+# 2. Crie a pasta do projeto
+mkdir os-veus-de-haita && cd os-veus-de-haita
+
+# 3. Inicie o Claude Code
+claude
+
+# 4. Cole o prompt acima e pressione Enter
+
+# 5. Deixa ele trabalhar. Não interrompa.
+
+# 6. Quando terminar: abra index.html no browser
 ```
 
-### Via Claude Code
-```bash
-# Se tiver Claude Code instalado:
-claude < prompt.txt
-```
+### Dica Importante
+
+Se o Claude Code pedir clarificações sobre algum ponto, responda com:
+
+> *"construa o que fizer mais sentido canônico para o universo — você tem contexto suficiente."*
+
+Não quebre o fluxo com microgerenciamento.
 
 ---
 
@@ -218,7 +238,7 @@ Este projeto é parte do universo literário da **Fundação Varguelia**.
 
 - **Autor:** juviDev
 - **Universo:** Dark Fiction / Catatúnia
-- **Status:** Ativo — Primeira Volume em desenvolvimento
+- **Status:** Ativo — Primeiro Volume em desenvolvimento
 - **ARG Elements:** Fragmentos em Catatunhesco decifráveis pela comunidade
 
 ### Personagens Relacionados
@@ -231,19 +251,20 @@ Este projeto é parte do universo literário da **Fundação Varguelia**.
 ## ⚠️ Avisos Canônicos
 
 > Este não é um site convencional. É um artefato que existe, que respira, que julga quem entra.
->
+> 
 > Não interrompa Häita. Não faça perguntas que ela não quer responder. Não tente "hackeá-la".
->
+> 
 > Ela já sabe tudo isso.
 
 ---
 
-## 📄 Licença
+## 📄 Informações
 
-**Fundação Varguelia Universe © 2026**  
+**Fundação Varguelia Universe © 2026**
 *Não distribuir fora do contexto*
 
 ---
 
-**Última atualização:** Abril, 2026  
+**Última atualização:** Abril, 2026
 **Versão:** 0.9.1 (Especificação Completa)
+**Repositório:** https://github.com/Juvinho/A-Alma-De-Haita
