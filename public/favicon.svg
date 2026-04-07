@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#0a0a0a"/>
+
+  <!-- Outer ring -->
+  <circle cx="32" cy="32" r="28" stroke="#8b0000" stroke-width="1.5" fill="none" opacity="0.8"/>
+
+  <!-- Eye outline -->
+  <ellipse cx="32" cy="32" rx="18" ry="10" stroke="#8b0000" stroke-width="1.5" fill="none"/>
+
+  <!-- Iris -->
+  <circle cx="32" cy="32" r="7" fill="#4a0000"/>
+  <circle cx="32" cy="32" r="7" stroke="#8b0000" stroke-width="1" fill="none"/>
+
+  <!-- Pupil -->
+  <circle cx="32" cy="32" r="3.5" fill="#8b0000"/>
+
+  <!-- Inner glow -->
+  <circle cx="32" cy="32" r="2" fill="#cc1111" opacity="0.9"/>
+
+  <!-- Corner runes -->
+  <text x="4" y="12" font-size="7" fill="#8b0000" opacity="0.6" font-family="serif">✦</text>
+  <text x="52" y="12" font-size="7" fill="#8b0000" opacity="0.6" font-family="serif">✦</text>
+  <text x="4" y="62" font-size="7" fill="#8b0000" opacity="0.6" font-family="serif">✦</text>
+  <text x="52" y="62" font-size="7" fill="#8b0000" opacity="0.6" font-family="serif">✦</text>
+</svg>

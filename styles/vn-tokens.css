@@ -1,0 +1,88 @@
+/* Visual Novel Design Tokens */
+/* Extraídos dos mockups de UI */
+
+:root {
+  /* ── BACKGROUNDS ── */
+  --vn-bg-primary: #0a0a0a;
+  --vn-bg-dialog: linear-gradient(135deg, #2a0505 0%, #1a0303 100%);
+  --vn-bg-dialog-opacity: 0.88;
+  --vn-bg-overlay: rgba(5, 0, 0, 0.80);
+  --vn-bg-slot-empty: rgba(10, 5, 5, 0.5);
+  --vn-bg-slot-occupied: rgba(26, 3, 3, 0.9);
+
+  /* ── BORDERS ── */
+  --vn-border-gold: #c9a84c;
+  --vn-border-gold-dim: #8a7a4c;
+  --vn-border-gold-bright: #e8c85c;
+  --vn-border-bronze: #6a5a2c;
+  --vn-border-silver: #6a6a6a;
+
+  /* ── TEXT ── */
+  --vn-text-cream: #e8dcc8;
+  --vn-text-gold: #c9a84c;
+  --vn-text-dim: #8a7a5a;
+  --vn-text-muted: #5a4a3a;
+  --vn-text-error: #cc3333;
+
+  /* ── NAME PLATES ── */
+  --vn-name-maya-bg: #3a0a0a;
+  --vn-name-ella-bg: #3a0a1a;
+  --vn-name-marci-bg: #0a0a2a;
+
+  /* ── EFFECTS ── */
+  --vn-glow-crimson: 0 0 15px rgba(139, 0, 0, 0.3);
+  --vn-glow-gold: 0 0 15px rgba(201, 168, 76, 0.3);
+  --vn-glow-hover: 0 0 20px rgba(139, 0, 0, 0.25);
+
+  /* ── SPECIAL ── */
+  --vn-haita-purple: #1a0a2e;
+  --vn-crimson-deep: #2a0505;
+  --vn-crimson-dark: #1a0303;
+  --vn-crimson-pressed: #150202;
+
+  /* ── TIMING ── */
+  --vn-transition-fast: 150ms;
+  --vn-transition-normal: 300ms;
+  --vn-transition-slow: 600ms;
+  --vn-typewriter-speed: 30ms;
+
+  /* ── TYPOGRAPHY ── */
+  --vn-font-display: var(--font-cinzel), 'Cinzel', serif;
+  --vn-font-body: var(--font-cormorant), 'Cormorant Garamond', serif;
+  --vn-font-mono: var(--font-fira), 'Fira Code', monospace;
+
+  /* ── LAYOUT ── */
+  --vn-dialog-height: 25%;
+  --vn-dialog-height-mobile: 30%;
+  --vn-dialog-padding-x: 24px;
+  --vn-dialog-padding-y: 16px;
+  --vn-nameplate-clip: polygon(0 0, calc(100% - 16px) 0, 100% 100%, 0 100%);
+  --vn-button-clip: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+}
+
+/* ── VN: restore real cursor (overrides the site-wide cursor:none) ── */
+.vn-root,
+.vn-root * {
+  cursor: auto !important;
+}
+.vn-root button,
+.vn-root [role="button"] {
+  cursor: pointer !important;
+}
+
+/* ── VN: scrollbar style ── */
+.vn-root ::-webkit-scrollbar {
+  width: 4px;
+}
+.vn-root ::-webkit-scrollbar-track {
+  background: rgba(5, 0, 0, 0.5);
+}
+.vn-root ::-webkit-scrollbar-thumb {
+  background: var(--vn-border-gold-dim);
+  border-radius: 2px;
+}
+
+/* ── VN: body scroll lock when game is open ── */
+body.vn-active {
+  overflow: hidden;
+}
