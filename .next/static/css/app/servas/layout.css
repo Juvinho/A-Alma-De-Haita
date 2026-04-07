@@ -1,0 +1,590 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\servas\\layout.tsx","import":"Cinzel","arguments":[{"subsets":["latin"],"weight":["400","600","700"],"variable":"--font-cinzel","display":"swap"}],"variableName":"cinzel"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin-ext */
+@font-face {
+  font-family: '__Cinzel_90c37a';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/b497598118275079-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cinzel_90c37a';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/a273567b21a7c318-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cinzel_90c37a';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/b497598118275079-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cinzel_90c37a';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/a273567b21a7c318-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cinzel_90c37a';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/b497598118275079-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cinzel_90c37a';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/a273567b21a7c318-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Cinzel_Fallback_90c37a';src: local("Times New Roman");ascent-override: 71.31%;descent-override: 27.18%;line-gap-override: 0.00%;size-adjust: 136.86%
+}.__className_90c37a {font-family: '__Cinzel_90c37a', '__Cinzel_Fallback_90c37a';font-style: normal
+}.__variable_90c37a {--font-cinzel: '__Cinzel_90c37a', '__Cinzel_Fallback_90c37a'
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\servas\\layout.tsx","import":"Cormorant_Garamond","arguments":[{"subsets":["latin"],"weight":["300","400","500","600"],"style":["normal","italic"],"variable":"--font-cormorant","display":"swap"}],"variableName":"cormorant"} ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/fd3893c623c32b6d-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/ea896c3885e026c1-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/024ead497118aa23-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/e74f24ed7f0e4323-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/e18f83c737786aa7-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/fd3893c623c32b6d-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/ea896c3885e026c1-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/024ead497118aa23-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/e74f24ed7f0e4323-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/e18f83c737786aa7-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/fd3893c623c32b6d-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/ea896c3885e026c1-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/024ead497118aa23-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/e74f24ed7f0e4323-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/e18f83c737786aa7-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/fd3893c623c32b6d-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/ea896c3885e026c1-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/024ead497118aa23-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/e74f24ed7f0e4323-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/e18f83c737786aa7-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/393d45a2251e223a-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/8715d2ed531152f4-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/c48b38fe8bb532f3-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/48410f3df60da620-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/_next/static/media/7b89a4fd5e90ede0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/393d45a2251e223a-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/8715d2ed531152f4-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/c48b38fe8bb532f3-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/48410f3df60da620-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/7b89a4fd5e90ede0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/393d45a2251e223a-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/8715d2ed531152f4-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/c48b38fe8bb532f3-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/48410f3df60da620-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/7b89a4fd5e90ede0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/393d45a2251e223a-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/8715d2ed531152f4-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/c48b38fe8bb532f3-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/48410f3df60da620-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Cormorant_Garamond_16bb0c';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/7b89a4fd5e90ede0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Cormorant_Garamond_Fallback_16bb0c';src: local("Times New Roman");ascent-override: 95.27%;descent-override: 29.59%;line-gap-override: 0.00%;size-adjust: 96.98%
+}.__className_16bb0c {font-family: '__Cormorant_Garamond_16bb0c', '__Cormorant_Garamond_Fallback_16bb0c'
+}.__variable_16bb0c {--font-cormorant: '__Cormorant_Garamond_16bb0c', '__Cormorant_Garamond_Fallback_16bb0c'
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\servas\\layout.tsx","import":"Fira_Code","arguments":[{"subsets":["latin"],"weight":["400"],"variable":"--font-fira","display":"swap"}],"variableName":"firaCode"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/2e116082a24c3433-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/b880b66f5d33f59a-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/6f0cf87c02d37638-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/e710a82c5d19ceb8-s.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* symbols2 */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/d7e565821f791b79-s.woff2) format('woff2');
+  unicode-range: U+2000-2001, U+2004-2008, U+200A, U+23B8-23BD, U+2500-259F;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/f1622db4e45bfafd-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Fira_Code_80ccff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/461799daff61149a-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Fira_Code_Fallback_80ccff';src: local("Arial");ascent-override: 73.56%;descent-override: 23.92%;line-gap-override: 0.00%;size-adjust: 134.59%
+}.__className_80ccff {font-family: '__Fira_Code_80ccff', '__Fira_Code_Fallback_80ccff';font-weight: 400;font-style: normal
+}.__variable_80ccff {--font-fira: '__Fira_Code_80ccff', '__Fira_Code_Fallback_80ccff'
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/vn-tokens.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/* Visual Novel Design Tokens */
+/* Extraídos dos mockups de UI */
+
+:root {
+  /* ── BACKGROUNDS ── */
+  --vn-bg-primary: #0a0a0a;
+  --vn-bg-dialog: linear-gradient(135deg, #2a0505 0%, #1a0303 100%);
+  --vn-bg-dialog-opacity: 0.88;
+  --vn-bg-overlay: rgba(5, 0, 0, 0.80);
+  --vn-bg-slot-empty: rgba(10, 5, 5, 0.5);
+  --vn-bg-slot-occupied: rgba(26, 3, 3, 0.9);
+
+  /* ── BORDERS ── */
+  --vn-border-gold: #c9a84c;
+  --vn-border-gold-dim: #8a7a4c;
+  --vn-border-gold-bright: #e8c85c;
+  --vn-border-bronze: #6a5a2c;
+  --vn-border-silver: #6a6a6a;
+
+  /* ── TEXT ── */
+  --vn-text-cream: #e8dcc8;
+  --vn-text-gold: #c9a84c;
+  --vn-text-dim: #8a7a5a;
+  --vn-text-muted: #5a4a3a;
+  --vn-text-error: #cc3333;
+
+  /* ── NAME PLATES ── */
+  --vn-name-maya-bg: #3a0a0a;
+  --vn-name-ella-bg: #3a0a1a;
+  --vn-name-marci-bg: #0a0a2a;
+
+  /* ── EFFECTS ── */
+  --vn-glow-crimson: 0 0 15px rgba(139, 0, 0, 0.3);
+  --vn-glow-gold: 0 0 15px rgba(201, 168, 76, 0.3);
+  --vn-glow-hover: 0 0 20px rgba(139, 0, 0, 0.25);
+
+  /* ── SPECIAL ── */
+  --vn-haita-purple: #1a0a2e;
+  --vn-crimson-deep: #2a0505;
+  --vn-crimson-dark: #1a0303;
+  --vn-crimson-pressed: #150202;
+
+  /* ── TIMING ── */
+  --vn-transition-fast: 150ms;
+  --vn-transition-normal: 300ms;
+  --vn-transition-slow: 600ms;
+  --vn-typewriter-speed: 30ms;
+
+  /* ── TYPOGRAPHY ── */
+  --vn-font-display: var(--font-cinzel), 'Cinzel', serif;
+  --vn-font-body: var(--font-cormorant), 'Cormorant Garamond', serif;
+  --vn-font-mono: var(--font-fira), 'Fira Code', monospace;
+
+  /* ── LAYOUT ── */
+  --vn-dialog-height: 25%;
+  --vn-dialog-height-mobile: 30%;
+  --vn-dialog-padding-x: 24px;
+  --vn-dialog-padding-y: 16px;
+  --vn-nameplate-clip: polygon(0 0, calc(100% - 16px) 0, 100% 100%, 0 100%);
+  --vn-button-clip: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+}
+
+/* ── VN: restore real cursor (overrides the site-wide cursor:none) ── */
+.vn-root,
+.vn-root * {
+  cursor: auto !important;
+}
+.vn-root button,
+.vn-root [role="button"] {
+  cursor: pointer !important;
+}
+
+/* ── VN: scrollbar style ── */
+.vn-root ::-webkit-scrollbar {
+  width: 4px;
+}
+.vn-root ::-webkit-scrollbar-track {
+  background: rgba(5, 0, 0, 0.5);
+}
+.vn-root ::-webkit-scrollbar-thumb {
+  background: var(--vn-border-gold-dim);
+  border-radius: 2px;
+}
+
+/* ── VN: body scroll lock when game is open ── */
+body.vn-active {
+  overflow: hidden;
+}
+

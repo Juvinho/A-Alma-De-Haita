@@ -1,15 +1,46 @@
 {
   "pages": {
-    "/sprite-test/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/sprite-test/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/despertar/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/despertar/page.js"
+    ],
+    "/veus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/veus/page.js"
+    ],
+    "/provas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/provas/page.js"
+    ],
+    "/servas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servas/page.js"
+    ],
+    "/servas/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/servas/layout.css",
+      "static/chunks/app/servas/layout.js"
+    ],
+    "/servas/game/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/servas/game/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
