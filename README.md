@@ -245,6 +245,6 @@ claude
 
 **✦ OS VÉUS DE HÄITA · v0.9.1**
 
-`juviDev` &nbsp;·&nbsp; `NÃO DISTRIBUIR FORA DO CONTEXTO`
+`Juvinho` &nbsp;·&nbsp; `NÃO DISTRIBUIR FORA DO CONTEXTO`
 
 </div>
